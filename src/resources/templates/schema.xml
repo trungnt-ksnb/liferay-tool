@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates group="default">
+	<template>
+		<name>localservice.ftl</name>
+		<export-name>${entity}LocalServiceImpl.java</export-name>
+		<type>1</type>
+		<enable>true</enable>
+		<description>Generate Liferay local service class</description>
+    </template>
+	<template>
+		<name>constant.ftl</name>
+		<export-name>${entity}Constant.java</export-name>
+		<type>1</type>
+		<enable>true</enable>
+		<description>Generate entity constant class</description>
+    </template>
+	<template>
+		<name>portletaction.ftl</name>
+		<export-name>${moduleName}PortletAction.java</export-name>
+		<type>2</type>
+		<enable>true</enable>
+		<description>Generate portlet action class</description>
+    </template>
+</templates>
